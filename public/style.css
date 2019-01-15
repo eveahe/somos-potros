@@ -1,0 +1,98 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-image:url('https://media.giphy.com/media/MH6xnLOADfhOE/giphy.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    opacity: 0.9;
+    text-align:left; 
+    float:left;
+    width: 100%;
+    max-width: 600px;
+    padding:20px 20px;
+    margin-left: 200px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.menu-text {
+  font-weight: bold;
+  color: pink;
+  display: inline-block;
+  margin-right: 10px;
+  width: 200px;
+}
+
+h3 {
+  color: slategray;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  max-width: 600px;
+  color: slategray; 
+}
+
+a:link {
+    color: pink; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: pink;
+    background-color: transparent;
+}
+
+
+img{
+    width:100%;
+    max-width:500px;
+}
