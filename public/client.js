@@ -1,3 +1,7 @@
+$("#home-link").click(function(){
+  $(".text-box").hide();
+});
+
 $("#contact-link").click(function(){
   $(".text-box").hide();
   $("#contact-text").show();
