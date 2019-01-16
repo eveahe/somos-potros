@@ -1,17 +1,33 @@
-/* styles */
-/* called by your view template */
 
-/* You might want to try something fancier: */
-/* less: http://lesscss.org/ */
-
-* {
-  box-sizing: border-box;
+body {
+  margin: 25px;
+  background-image:url('https://media.giphy.com/media/MH6xnLOADfhOE/giphy.gif');
+  background-position: center;
+  background-size: cover;
 }
 
-/* .site-content{
-  display: flex;
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: pink;
+  display: inline-block;
 }
- */
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #BCD5EC;
+  color: black;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 600px;
+  color: slategray; 
+  margin-top: 10px;
+}
+
 
 .menu{
   position: absolute;
@@ -40,18 +56,11 @@
   display: none;
 }
 
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  margin: 25px;
-  background-image:url('https://media.giphy.com/media/MH6xnLOADfhOE/giphy.gif');
-  background-position: center;
-  background-size: cover;
-}
 
 .white-box {
     background-color: white;
     border-radius: 25px;
-    color: black;
+    color: slategray;
     text-align:left; 
     float:left;
     width: 100%;
@@ -62,43 +71,16 @@ body {
     box-shadow: 5px 10px #888888;
 }
 
-h1 {
-  font-weight: bold;
-  color: pink;
-  display: inline-block;
-  
-}
-
-.bold {
-  font-weight: bold;
-}
-
 
 .menu-text {
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   color: pink;
   display: inline-block;
   margin-right: 10px;
 }
 
-h3 {
-  color: slategray;
-}
 
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-
-p {
-  font-family: helvetica, arial, sans-serif;
-  max-width: 600px;
-  color: slategray; 
-}
 
 a:link {
     color: pink; 
@@ -123,22 +105,29 @@ a:active {
     background-color: transparent;
 }
 
-
-img{
-    width:100%;
-    max-width:500px;
+.text-link:hover {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
 }
+
+
 
 @media (max-width: 600px) {
   .menu{
-    width: 80%
+    width: 80%;
+    left: 20px;
   }
   
   .site-details{
-    width: 85%;
-    position: relative;
-    left: 50px;
+    width: 80%;
+    left: 20px;
     top: 400px;
+    border-radius: 0px;
+  }
+  
+  .white-box{
+    width: 100%;
   }
   
 }
