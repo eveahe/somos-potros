@@ -43,6 +43,11 @@ p {
 
 .menu-text{
   background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: pink;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 
@@ -71,15 +76,10 @@ p {
     box-shadow: 5px 10px #888888;
 }
 
-
-.menu-text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
-  color: pink;
-  display: inline-block;
-  margin-right: 10px;
+.non-zine {
+  background-color: #3461E5;
+  color: white;
 }
-
 
 
 a:link {
